@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=devivice-width, intial-scale=1.0">
+	<title> Tugas Web Desain</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="hero">
+	<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="objek wisata.html">OBJEK WISATA</a></li>
+				<li><a href="">SARANA AKOMODASI</a></li>
+				<li><a href="wawasan.html">WAWASAN</a></li>
+				<button type="button" onclick="toggleBtn()" id="btn" ><span></span></button>
+			</ul>
+	</nav>
+	<!-- ini adalah gambar dari sarana akomodasi -->
+	
+
+	<div class="text-container">
+		<a href=""> <p>	The Jayakarta Suites Komodo Flores </p>
+		</a>	
+		<a href=""><img class="jayakarta" src="images/jayakarta.jpg" width="400"> </a>
+
+		<!-- paket yang tawarkan -->
+    <div>
+    	  <a href=""> 
+    	  <table border="1">
+        <tr>
+            <th colspan="3" bgcolor="yellow">Paket Yang kami Tawarkan</th>
+        </tr>
+        <tr>
+            <td rowspan="4">
+                <img src="images/pakethotel.jpg" width="200" />
+            </td>
+        </tr>
+        <tr>
+            <td>Paket1</td>
+            <td>Rp 2000.000</td>
+        </tr>
+        <tr>
+            <td>Paket2</td>
+            <td>Rp 5000.000</td>
+        </tr>
+        <tr>
+            <td>Fitur</td>
+            <td>
+                <ul>
+                    <li>Dilengkapi Kolam Renang</li>
+                    <li>Pelayanan Istimewa</li>
+                    <li>Makan 3x Sehari</li>
+                    <li>Ruang Meet</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</a>
+
+    <!-- class control -->
+		
+		<div class="control">
+			<p>03</p>
+			<div class="line"><span></span></div>
+			<p>05</p>
+		</div>
+	</div>
+</div>
+
+<script>
+	alert("Ini adalah Halaman Akomodasi"); 
+	var btn = document.getElementById("btn");
+	function toggleBtn() {
+		btn.classList.toggle("active");
+	}
+</script>
+</body>
+</html>

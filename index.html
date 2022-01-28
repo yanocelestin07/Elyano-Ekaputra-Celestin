@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=devivice-width, intial-scale=1.0">
+	<title> Tugas Web Desain</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="hero">
+	<nav>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="objek wisata.html">OBJEK WISATA</a></li>
+				<li><a href="SaranaAkomodasi.html">SARANA AKOMODASI</a></li>
+				<li><a href="wawasan.html">WAWASAN</a></li>
+				<button type="button" onclick="toggleBtn()" id="btn" ><span></span></button>
+			</ul>
+			
+	</nav>
+
+    <!--  -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Cari">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+      </form>
+ 
+   </div>
+ 
+</nav>
+
+	<div class="text-container">
+		<div id="Labuan-Bajo"><h1> LABUAN BAJO </h1></div>
+		<p>Labuan Bajo merupakan salah satu kelurahan yang berada di kecamatan Komodo, Kabupaten Manggarai Barat, provinsi Nusa Tenggara Timur, Indonesia. Kelurahan Labuan Bajo juga merupakan ibu kota dari kecamatan Kecamatan Komodo dan ibu kota Kabupaten Manggarai Barat.									</p>
+		<a href="">ALL ABOUT LABUAN BAJO</a>	
+		<div class="control">
+			<p>04</p>
+			<div class="line"><span></span></div>
+			<p>05</p>
+		</div>
+	</div>
+</div>
+
+<script>
+	alert("Selamat Datang di Labuan Bajo! , Click Ok untuk melanjutkan"); 
+	var btn = document.getElementById("btn");
+	function toggleBtn() {
+		btn.classList.toggle("active");
+	}
+</script>
+</body>
+</html>
